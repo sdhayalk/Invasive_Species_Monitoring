@@ -12,7 +12,7 @@ Python, TensorFlow, Keras (and other libraries such as NumPy, etc.). If using GP
 Download the dataset from [here](https://www.kaggle.com/c/invasive-species-monitoring/data).
 
 ## Input
-Input are various 1154x866 resolution RGB images (three channels), along with label corresponding to whether the image has presence of the invasive species hydrangea
+Input are various 1154x866 resolution RGB images (three channels), along with label corresponding to whether the image has presence of the invasive species hydrangea. Please create a folder 'input' and paste all the data files in the input folder. I have not uploaded the input folder with the data files on GitHub.
 
 ## Results
 Achieved 0.977 and 0.987 area under ROC curve with GoogleNet and the ensemble respectively. Including Batch Normalization and Dropout layers after some Convolution layers in GoogleNet drastically increased the accuracy and overcame the problem of only one class being predicted for all examples.
