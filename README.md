@@ -17,7 +17,7 @@ Input are various 1154x866 resolution RGB images (three channels), along with la
 ### Sample Images
 ![present](Sample_pictures/180.jpg "Invasive species Hydrangea present")
 
-![absent](Sample_pictures/181.jpg" "Invasive species not present")
+![absent](Sample_pictures/181.jpg "Invasive species not present")
 
 ## Results
 Achieved 0.977 and 0.987 area under ROC curve with GoogleNet and the ensemble respectively. Including Batch Normalization and Dropout layers after some Convolution layers in GoogleNet drastically increased the accuracy and overcame the problem of only one class being predicted for all examples.
