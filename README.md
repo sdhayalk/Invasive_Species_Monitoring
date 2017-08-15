@@ -25,7 +25,7 @@ Invasive species not present
 Achieved 0.977 and 0.987 area under ROC curve with GoogleNet and the ensemble respectively. Including Batch Normalization and Dropout layers after some Convolution layers in GoogleNet drastically increased the accuracy and overcame the problem of only one class being predicted for all examples.
 
 ### References and Acknowledgments
-1] Kaggle Competition, Invasive Species Monitoring, Identify images of invasive hydrangea.
+1] Kaggle Competition, Invasive Species Monitoring, Identify images of invasive hydrangea. Link [here](https://www.kaggle.com/c/invasive-species-monitoring)
 
 2] Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D., ... & Rabinovich, A. (2015). Going deeper with convolutions. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 1-9).
 
