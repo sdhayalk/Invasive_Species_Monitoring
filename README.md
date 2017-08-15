@@ -15,9 +15,9 @@ Download the dataset from [here](https://www.kaggle.com/c/invasive-species-monit
 Input are various 1154x866 resolution RGB images (three channels), along with label corresponding to whether the image has presence of the invasive species hydrangea. Please create a folder 'input' and paste all the data files in the input folder. I have not uploaded the input folder with the data files on GitHub.
 
 ### Sample Images
-![present](Sample Pictures for README.md/180.jpg "Invasive species Hydrangea present")
+![present]("/Sample Pictures for README.md/180.jpg" "Invasive species Hydrangea present")
 
-![absent](Sample Pictures for README.md/181.jpg "Invasive species not present")
+![absent]("/Sample Pictures for README.md/181.jpg" "Invasive species not present")
 
 ## Results
 Achieved 0.977 and 0.987 area under ROC curve with GoogleNet and the ensemble respectively. Including Batch Normalization and Dropout layers after some Convolution layers in GoogleNet drastically increased the accuracy and overcame the problem of only one class being predicted for all examples.
